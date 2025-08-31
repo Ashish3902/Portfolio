@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashish Sharma | Full Stack Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loader"></div>
+      <p>Loading Portfolio...</p>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="logo-text">Ashish</span>
+          <div class="logo-dot"></div>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="greeting">
+            <span class="wave">👋</span>
+            <span>Hello, I'm</span>
+          </div>
+          <h1 class="hero-name">Ashish Sharma</h1>
+          <div class="hero-role">
+            <span>I'm a </span>
+            <span class="role-highlight" id="roleText"
+              >Full Stack Developer</span
+            >
+          </div>
+          <p class="hero-description">
+            Passionate Full Stack Developer specializing in modern web
+            technologies. I create scalable applications with clean code and
+            exceptional user experiences.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="6">0</span>
+              <span class="stat-label">Years Exp</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="100">0</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-eye"></i>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fas fa-envelope"></i>
+              Contact Me
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Ashish3902" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ashish-sharma-4b358b35a"
+              class="social-link"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://x.com/asloq3902" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="mailto:asmuna9173@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-container">
+            <div class="floating-icons">
+              <div class="floating-icon"><i class="fab fa-react"></i></div>
+              <div class="floating-icon"><i class="fab fa-node-js"></i></div>
+              <div class="floating-icon"><i class="fab fa-js-square"></i></div>
+              <div class="floating-icon"><i class="fab fa-python"></i></div>
+            </div>
+            <div class="profile-circle">
+              <img
+                src="https://via.placeholder.com/300x300/00ffff/000000?text=AS"
+                alt="Ashish Sharma"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About <span class="highlight">Me</span></h2>
+          <p>Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Full Stack Developer & Problem Solver</h3>
+            <p>
+              I'm a passionate Full Stack Developer with expertise in modern web
+              technologies. My journey in tech started with curiosity and
+              evolved into creating innovative solutions.
+            </p>
+            <div class="about-details">
+              <div class="detail-item">
+                <span class="label">Name:</span>
+                <span class="value">Ashish Sharma</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Location:</span>
+                <span class="value">Jaipur, India</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Email:</span>
+                <span class="value">asmuna9173@gmail.com</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Phone:</span>
+                <span class="value">+91 9549433902</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-skills">
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <div class="skills-list">
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Backend</h4>
+              <div class="skills-list">
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Express.js</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>My <span class="highlight">Skills</span></h2>
+          <p>Technologies I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h4>React.js</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="90"></div>
+            </div>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h4>Node.js</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="85"></div>
+            </div>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h4>JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="88"></div>
+            </div>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h4>MongoDB</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-width="80"></div>
+            </div>
+            <span class="skill-percent">80%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured <span class="highlight">Projects</span></h2>
+          <p>Some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/400x250/00ffff/000000?text=Vidora"
+                alt="Vidora Project"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://vidora-frontend-vb.onrender.com/"
+                  class="project-link"
+                  target="_blank"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  href="https://github.com/Ashish3902"
+                  class="project-link"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-category">Full Stack</div>
+              <h3>Vidora - Video Platform</h3>
+              <p>
+                A modern video streaming platform built with React and Node.js
+                featuring user authentication and real-time features.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/400x250/0066ff/ffffff?text=E-Commerce"
+                alt="E-commerce Project"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="https://github.com/Ashish3902" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-category">Web App</div>
+              <h3>E-Commerce Platform</h3>
+              <p>
+                Complete e-commerce solution with shopping cart, payment
+                integration, and admin dashboard.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">Stripe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="https://via.placeholder.com/400x250/ff6b6b/ffffff?text=Dashboard"
+                alt="Dashboard Project"
+              />
+              <div class="project-overlay">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="https://github.com/Ashish3902" class="project-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-category">Frontend</div>
+              <h3>Analytics Dashboard</h3>
+              <p>
+                Interactive dashboard with real-time data visualization and
+                responsive design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Let's <span class="highlight">Connect</span></h2>
+          <p>Have a project in mind? Let's discuss!</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Jaipur, Rajasthan, India</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 9549433902</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>asmuna9173@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="5"
+              required
+            ></textarea>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Ashish Sharma. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
